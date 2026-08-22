@@ -1,0 +1,180 @@
+/* Dark Mode Styles - dark-mode.css */
+@media (prefers-color-scheme: dark) {
+  /* Base elements */
+  body {
+    background: #1a1a1a !important;
+    color: #e0e0e0 !important;
+  }
+  
+  /* Content containers */
+  .pt-page .section-inner,
+  .single-page-content .content-area,
+  .page-ajax-loaded {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+  }
+  
+  /* Headers and page headers */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+  }
+  
+  .page-header.color-1 {
+    background-color: #82122A !important; /* Keep the green header */
+  }
+  
+  .page-content {
+    background-color: #2d2d2d !important;
+  }
+  
+  /* Timeline items */
+  .timeline {
+    border-left-color: #404040 !important;
+  }
+  
+  .timeline-item {
+    background-color: #363636 !important;
+    color: #e0e0e0 !important;
+    box-shadow: 0px 0px 3px 0px rgba(255,255,255,0.1) !important;
+  }
+  
+  .timeline-item:hover {
+    box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.2) !important;
+  }
+  
+  .timeline-item .item-description {
+    color: #c0c0c0 !important;
+  }
+  
+  /* Skills section */
+  .skill-container {
+    background-color: #404040 !important;
+    border-color: #555555 !important;
+  }
+  
+  /* Contact form */
+  .form-control,
+  .form-control:focus {
+    background-color: #404040 !important;
+    color: #e0e0e0 !important;
+    border-bottom-color: #555555 !important;
+  }
+  
+  .form-group label {
+    color: #b0b0b0 !important;
+  }
+  
+  .form-group-with-icon i {
+    background-color: #404040 !important;
+    border-bottom-color: #555555 !important;
+    color: #b0b0b0 !important;
+  }
+  
+  /* Contact info blocks */
+  .contact-info-block .ci-icon {
+    background-color: #404040 !important;
+  }
+  
+  /* Buttons */
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    background-color: #404040 !important;
+    color: #e0e0e0 !important;
+  }
+  
+  /* Lists and info */
+  .info-list li .value {
+    color: #c0c0c0 !important;
+  }
+  
+  .info-list li .title {
+    color: #e0e0e0 !important;
+  }
+  
+  /* Links */
+  a {
+    color: #C4485A !important; 
+  }
+  
+  a:hover {
+    color: #C8A96E !important; /* Keep the orange hover */
+  }
+  
+  /* Publications/Research lists */
+  .info-list ul li {
+    color: #c0c0c0 !important;
+  }
+  
+  /* Social links */
+  .social-links a {
+    background-color: #404040 !important;
+    color: #c0c0c0 !important;
+  }
+  
+  .social-links a:hover {
+    background-color: #82122A !important;
+    color: #ffffff !important;
+  }
+  
+  /* Navigation (header) - keep original styling for visibility */
+  .header {
+    background-color: rgba(45, 45, 45, 0.95) !important;
+  }
+  
+  .site-title {
+    color: #e0e0e0 !important;
+  }
+  
+  .site-title span {
+    color: #C4485A !important; /* Keep the green accent */
+  }
+  
+  .site-main-menu li a {
+    color: #c0c0c0 !important;
+  }
+  
+  .site-main-menu li a:hover,
+  .site-main-menu li.active a {
+    color: #ffffff !important;
+  }
+  
+  /* Mobile navigation */
+  .mobile-header {
+    background-color: #82122A !important; /* Keep the green mobile header */
+  }
+  
+  /* Map container */
+  .map {
+    filter: invert(90%) hue-rotate(180deg) !important;
+  }
+  
+  /* Footer */
+  footer .copyrights {
+    color: #888888 !important;
+  }
+  
+  /* Photo container */
+  .photo {
+    background-color: #404040 !important;
+  }
+  
+  /* Block titles */
+  .block-title h3 span {
+    color: #C4485A !important; /* Keep green accent */
+  }
+  
+  /* Period spans in timeline */
+  .item-period {
+    color: #C4485A !important; /* Keep green for consistency */
+  }
+  
+  .item-small {
+    color: #888888 !important;
+  }
+  
+  /* Preloader */
+  .preloader {
+    background: #1a1a1a !important;
+  }
+}
