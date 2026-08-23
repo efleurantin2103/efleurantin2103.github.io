@@ -20,7 +20,7 @@
   }
   
   .page-header.color-1 {
-    background-color: #82122A !important; /* Keep the green header */
+    background-color: #82122A !important; /* Keep the burgundy header */
   }
   
   .page-content {
@@ -75,6 +75,11 @@
     background-color: #404040 !important;
   }
   
+  /* Google Map */
+  .map {
+      background-color: #242424;
+  }
+  
   /* Buttons */
   .btn-secondary,
   .btn-secondary:hover,
@@ -127,7 +132,7 @@
   }
   
   .site-title span {
-    color: #C4485A !important; /* Keep the green accent */
+    color: #C4485A !important; /* Keep the burgundy accent */
   }
   
   .site-main-menu li a {
@@ -141,12 +146,7 @@
   
   /* Mobile navigation */
   .mobile-header {
-    background-color: #82122A !important; /* Keep the green mobile header */
-  }
-  
-  /* Map container */
-  .map {
-    filter: invert(90%) hue-rotate(180deg) !important;
+    background-color: #82122A !important; /* Keep the burgundy mobile header */
   }
   
   /* Footer */
@@ -161,12 +161,12 @@
   
   /* Block titles */
   .block-title h3 span {
-    color: #C4485A !important; /* Keep green accent */
+    color: #C4485A !important; /* Keep burgundy accent */
   }
   
   /* Period spans in timeline */
   .item-period {
-    color: #C4485A !important; /* Keep green for consistency */
+    color: #C4485A !important; /* Keep burgundy for consistency */
   }
   
   .item-small {
