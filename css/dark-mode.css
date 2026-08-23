@@ -108,18 +108,12 @@
   }
   
   /* Fullscreen map mode */
-   .map:fullscreen,
-   .map:-webkit-full-screen,
-   .map:-moz-full-screen {
-     filter: invert(90%) hue-rotate(180deg) !important;
-     background-color: #242424 !important;
-   }
-
-   :fullscreen .map,
-   :-webkit-full-screen .map {
-     filter: invert(90%) hue-rotate(180deg) !important;
-     background-color: #242424 !important;
-   }
+    :fullscreen,
+    :-webkit-full-screen,
+    ::backdrop {
+      background-color: #242424 !important;
+      filter: invert(90%) hue-rotate(180deg) !important;
+    }
   
   /* Buttons */
   .btn-secondary,
