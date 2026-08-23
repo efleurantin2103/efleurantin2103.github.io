@@ -75,9 +75,10 @@
     background-color: #404040 !important;
   }
   
-  /* Google Map */
+  /* Google Map - Dark Mode */
   .map {
       background-color: #242424;
+      filter: invert(90%) hue-rotate(180deg) !important;
   }
   
   /* Buttons */
@@ -132,7 +133,7 @@
   }
   
   .site-title span {
-    color: #C4485A !important; /* Keep the burgundy accent */
+    color: #C4485A !important; /* Keep the green accent */
   }
   
   .site-main-menu li a {
