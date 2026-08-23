@@ -81,15 +81,18 @@
       filter: invert(90%) hue-rotate(180deg) !important;
   }
 
-  /* Counter-invert the InfoWindow bubble so the filter above doesn't wash it out */
+  /* Counter-invert the InfoWindow bubble + tail only */
   .gm-style-iw-c,
-  .gm-style-iw-d,
   .gm-style-iw-t::after {
     filter: invert(90%) hue-rotate(180deg) !important;
   }
 
   .gm-style-iw-c {
     background-color: #2d2d2d !important;
+  }
+
+  .gm-style-iw-d {
+    color: #e0e0e0 !important;
   }
 
   .map-info-window {
