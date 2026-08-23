@@ -80,6 +80,29 @@
       background-color: #242424;
       filter: invert(90%) hue-rotate(180deg) !important;
   }
+
+  /* Counter-invert the InfoWindow bubble so the filter above doesn't wash it out */
+  .gm-style-iw-c,
+  .gm-style-iw-d,
+  .gm-style-iw-t::after {
+    filter: invert(90%) hue-rotate(180deg) !important;
+  }
+
+  .gm-style-iw-c {
+    background-color: #2d2d2d !important;
+  }
+
+  .map-info-window {
+    color: #e0e0e0 !important;
+  }
+
+  .map-info-window strong {
+    color: #ff6b81 !important;
+  }
+
+  .gm-style-iw-c button {
+    filter: invert(0%) !important;
+  }
   
   /* Buttons */
   .btn-secondary,
